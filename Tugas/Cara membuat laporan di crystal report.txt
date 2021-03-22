@@ -1,0 +1,11 @@
+Langkah" membuat laporan di Crystal Report :
+1. Buka Crystal Report
+2. Pilih New lalu As a Blank Report - OK
+3. Pilih ODBC - Create New Data Source
+4. Pilih System Data Source (Bila belum terceklist maka aktifkan di properties Crystal Report pada bagian Compability - ceklist Run As Administrator)
+5. Next - Pilih ODBC 3.51 - Next - Finish
+6. Tampil Form Connector dan isi
+	Data Source name = Nama Tema
+	User = root
+	Lalu click Test - tampil pesan "Success..."
+	Pilih Database - OK

@@ -1,0 +1,35 @@
+kodingan cbjenis project magang
+
+if cbjenis.ItemIndex = 0 then
+begin
+ekoper.Text:='C';
+end
+else
+if cbjenis.ItemIndex = 1 then
+begin
+ekoper.Text:='M';
+end
+else
+if cbjenis.ItemIndex = 2 then
+begin
+ekoper.Text:='K';
+end
+else
+if cbjenis.ItemIndex = 3 then
+begin
+ekoper.Text:='T';
+end
+else
+if cbjenis.ItemIndex = 4 then
+begin
+ekoper.Text:='P';
+end
+
+formcreate
+adoperangkat.First;
+while not adoperangkat.Eof do
+begin
+cbjenis.Items.Add(adoperangkat['jenis perangkat']);
+cbmerk.Items.Add(adoperangkat['merk perangkat']);
+adoperangkat.Next;
+end;
